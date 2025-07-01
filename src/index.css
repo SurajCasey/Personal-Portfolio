@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+html{
+    scroll-behavior: smooth;
+}
+
+@theme {
+    --color-primary-blue: #1E3A8A;
+    --color-secondary-blue: #167CFC;
+    --color-primary-black: #111827;
+    --color-seconday-black: #000000;
+    --color-dark-blue: #374151;
+    --color-white: #ffffff;
+    --color-button-blue: #2563EB;
+    --color-button-yellow: #FACC15;
+    --color-black: #000000;  
+    --color-shadow-grey: #6B7280;
+    --color-bg-teal: #E0F2F1;
+    --color-bg-skills: #D9D9D9;
+    /* Font Inter */
+    --font-inter: "Inter", sans-serif;
+    /* Breakpoint for lg */
+    --breakpoint-lg: 75rem;
+    --breakpoint-bigscreen: 84rem;
+}
+
+.icons {
+    @apply w-5 h-5
+}
+
+.buttons{
+    @apply text-white bg-button-blue rounded-[20px] w-34 h-11 text-xs; 
+    box-shadow: 5px 5px 5px rgba(107, 114,128, 0.50); 
+}
+
+.hirebutton{
+    @apply text-secondary-blue bg-button-yellow 
+                    rounded-[20px] w-34 h-11 text-[16px] font-semibold ; 
+                    box-shadow: 5px 5px 5px rgba(107, 114,128, 0.50);
+}
