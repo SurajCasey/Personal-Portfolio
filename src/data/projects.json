@@ -1,82 +1,82 @@
 [
-    {
-        "id": 1,
-        "name": "Ecommerce Website",
-        "img": "../assets/apps/Shopping-app.png",
-        "tools": ["React","TailwindCSS"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/ecommerce-project/",
-            "viewCode": "https://github.com/SurajCasey/ecommerce-project"
-        }
-    },
-       {
-        "id": 2,
-        "name": "Sneakers Website",
-        "img": "/src/assets/apps/E-commerce-shoes.png",
-        "tools": ["React","TailwindCSS"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/ecommerce-page/",
-            "viewCode": "https://github.com/SurajCasey/ecommerce-page"
-        }
-    },
-       {
-        "id": 3,
-        "name": "Time Tracking App",
-        "img": "/src/assets/apps/Time-Tracking-Dashboard.png",
-        "tools": ["HTML","CSS", "JavaScript"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/time-tracking-dashboard/",
-            "viewCode": "https://github.com/SurajCasey/time-tracking-dashboard"
-        }
-    },
-       {
-        "id": 4,
-        "name": "Landing Page",
-        "img": "/src/assets/apps/Landing-Page.png",
-        "tools": ["HTML","CSS", "JavaScript"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/Meet-Landing-Page/",
-            "viewCode": "https://github.com/SurajCasey/Meet-Landing-Page"
-        }
-    },
-       {
-        "id": 5,
-        "name": "Quiz App",
-        "img": "/src/assets/apps/Quiz-App.png",
-        "tools": ["React","TailwindCSS"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/quiz-app/",
-            "viewCode": "https://github.com/SurajCasey/quiz-app"
-        }
-    },
-       {
-        "id": 6,
-        "name": "Bill Splitter",
-        "img": "/src/assets/apps/Bill-Splitter-app.png",
-        "tools": ["HTML","CSS","JavaScript"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/tip-calculator-app/",
-            "viewCode": "https://github.com/SurajCasey/tip-calculator-app"
-        }
-    },
-       {
-        "id": 7,
-        "name": "Password Generator",
-        "img": "/src/assets/apps/Password-Generator.png",
-        "tools": ["HTML","CSS", "JavaScript"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/Password-Generator-App/",
-            "viewCode": "https://github.com/SurajCasey/Password-Generator-App"
-        }
-    },
-       {
-        "id": 8,
-        "name": "Contact Form",
-        "img": "/src/assets/apps/Contact-form-page.png",
-        "tools": ["React","TailwindCSS"],
-        "site":{
-            "liveSite": "https://surajcasey.github.io/contact-form/",
-            "viewCode": "https://github.com/SurajCasey/contact-form"
-        }
+  {
+    "id": 1,
+    "name": "Ecommerce Website",
+    "img": "Shopping-app.png",
+    "tools": ["React", "TailwindCSS"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/ecommerce-project/",
+      "viewCode": "https://github.com/SurajCasey/ecommerce-project"
     }
+  },
+  {
+    "id": 2,
+    "name": "Sneakers Website",
+    "img": "E-commerce-shoes.png",
+    "tools": ["React", "TailwindCSS"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/ecommerce-page/",
+      "viewCode": "https://github.com/SurajCasey/ecommerce-page"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Time Tracking App",
+    "img": "Time-Tracking-Dashboard.png",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/time-tracking-dashboard/",
+      "viewCode": "https://github.com/SurajCasey/time-tracking-dashboard"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Landing Page",
+    "img": "Landing-Page.png",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/Meet-Landing-Page/",
+      "viewCode": "https://github.com/SurajCasey/Meet-Landing-Page"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Quiz App",
+    "img": "Quiz-App.png",
+    "tools": ["React", "TailwindCSS"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/quiz-app/",
+      "viewCode": "https://github.com/SurajCasey/quiz-app"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bill Splitter",
+    "img": "Bill-Splitter-app.png",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/tip-calculator-app/",
+      "viewCode": "https://github.com/SurajCasey/tip-calculator-app"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Password Generator",
+    "img": "Password-Generator.png",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/Password-Generator-App/",
+      "viewCode": "https://github.com/SurajCasey/Password-Generator-App"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Contact Form",
+    "img": "Contact-form-page.png",
+    "tools": ["React", "TailwindCSS"],
+    "site": {
+      "liveSite": "https://surajcasey.github.io/contact-form/",
+      "viewCode": "https://github.com/SurajCasey/contact-form"
+    }
+  }
 ]

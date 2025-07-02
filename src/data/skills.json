@@ -1,75 +1,74 @@
 [
-    {
-        "id":1,
-        "name":"HTML",
-        "icon":"/src/assets/logos/html-1.svg",
-        "description":"Markup Language"
-    },
-     {
-        "id":2,
-        "name":"CSS",
-        "icon":"/src/assets/logos/css-3.svg",
-        "description":"User Interface"
-    },
-     {
-        "id":3,
-        "name":"JavaScript",
-        "icon":"/src/assets/logos/javascript-1.svg",
-        "description":"Interaction/Logic"
-    },
-     {
-        "id":4,
-        "name":"React",
-        "icon":"/src/assets/logos/react-2.svg",
-        "description":"JS Framework"
-    },
-     {
-        "id":5,
-        "name":"NodeJS",
-        "icon":"/src/assets/logos/nodejs-icon.svg",
-        "description":"Runtime Envirionment"
-    },
-     {
-        "id":6,
-        "name":"ExpressJS",
-        "icon":"/src/assets/logos/icons8-express-js.svg",
-        "description":"Backend Framework"
-    },
-     {
-        "id":7,
-        "name":"Figma",
-        "icon":"/src/assets/logos/figma-icon.svg",
-        "description":"Design Tool"
-    },
-     {
-        "id":8,
-        "name":"TailwindCSS",
-        "icon":"/src/assets/logos/tailwind-css-2.svg",
-        "description":"CSS Framwork"
-    },
-     {
-        "id":9,
-        "name":"Sass",
-        "icon":"/src/assets/logos/sass-icon.svg",
-        "description":"CSS Preprocessor"
-    },
-     {
-        "id":10,
-        "name":"MongoDB",
-        "icon":"/src/assets/logos/MongoDB.svg",
-        "description":"NoSQL Database"
-        
-    },
-     {
-        "id":11,
-        "name":"Github",
-        "icon":"/src/assets/logos/github-icon.svg",
-        "description":"Hosting/Collaboration"
-    },
-     {
-        "id":12,
-        "name":"Git",
-        "icon":"/src/assets/logos/git-icon.svg",
-        "description":"Version Control"
-    }
+  {
+    "id": 1,
+    "name": "HTML",
+    "icon": "html-1.svg",
+    "description": "Markup Language"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "icon": "css-3.svg",
+    "description": "User Interface"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "javascript-1.svg",
+    "description": "Interaction/Logic"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "icon": "react-2.svg",
+    "description": "JS Framework"
+  },
+  {
+    "id": 5,
+    "name": "NodeJS",
+    "icon": "nodejs-icon.svg",
+    "description": "Runtime Environment"
+  },
+  {
+    "id": 6,
+    "name": "ExpressJS",
+    "icon": "icons8-express-js.svg",
+    "description": "Backend Framework"
+  },
+  {
+    "id": 7,
+    "name": "Figma",
+    "icon": "figma-icon.svg",
+    "description": "Design Tool"
+  },
+  {
+    "id": 8,
+    "name": "TailwindCSS",
+    "icon": "tailwind-css-2.svg",
+    "description": "CSS Framework"
+  },
+  {
+    "id": 9,
+    "name": "Sass",
+    "icon": "sass-icon.svg",
+    "description": "CSS Preprocessor"
+  },
+  {
+    "id": 10,
+    "name": "MongoDB",
+    "icon": "MongoDB.svg",
+    "description": "NoSQL Database"
+  },
+  {
+    "id": 11,
+    "name": "Github",
+    "icon": "github-icon.svg",
+    "description": "Hosting/Collaboration"
+  },
+  {
+    "id": 12,
+    "name": "Git",
+    "icon": "git-icon.svg",
+    "description": "Version Control"
+  }
 ]
