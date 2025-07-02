@@ -69,7 +69,12 @@ const ContactMe = () => {
           Follow or message me on these platforms:
         </p>
         <div>
-         <i class="fa fa-linkedin" ></i>
+         <LinkedIcon/>
+         <InstagramIcon/>
+         <GithubIcon/>
+         <PhoneIcon/>
+         <FrontEndMentorIcon/>
+         <GmailIcon/>
 
         </div>
       </section>

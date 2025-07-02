@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Ecommerce Website",
-        "img": "/public/apps/Shopping-app.png",
+        "img": "../assets/apps/Shopping-app.png",
         "tools": ["React","TailwindCSS"],
         "site":{
             "liveSite": "https://surajcasey.github.io/ecommerce-project/",
