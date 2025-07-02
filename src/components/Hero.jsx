@@ -4,7 +4,7 @@ import ScrollImg from '../assets/icons/arrow-down-square.svg?react';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center max-sm:mt-10'>
         <div className='flex flex-col items-center mt-3.5 mx-5 px-2 sm:px-16 sm:pt-6.5 
                         lg:flex-row-reverse lg:justify-center lg:p-0 lg:gap-17 lg:mt-10' 
         >

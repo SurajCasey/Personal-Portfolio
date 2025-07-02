@@ -47,7 +47,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-11">
         <a 
           href="#contact"
           className="hidden lg:flex items-center justify-center gap-2.5 text-white bg-black w-61 h-13 rounded-3xl"
