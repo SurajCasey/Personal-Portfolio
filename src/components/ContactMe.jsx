@@ -9,9 +9,10 @@ import NavTopIcon from '../assets/icons/arrow-up-circle-fill.svg?react'
 const ContactMe = () => {
   return (
     <div className='py-10 bigscreen:flex bigscreen:flex-row bigscreen:px-[170px]'>
-      <section id="contact" className="px-5  sm:px-16  text-primary-black">
+      <section data-aos="fade-right"  id="contact" className="px-5  sm:px-16  text-primary-black">
         <div className="max-w-3xl ">
-          <h2 className="text-2xl lg:text-[32px] font-semibold text-primary-blue mb-4">
+          <h2 data-aos="fade-right"  
+            className="text-2xl lg:text-[32px] font-semibold text-primary-blue mb-4">
             Contact Me
           </h2>
           <p className="text-lg mb-8">
@@ -53,8 +54,8 @@ const ContactMe = () => {
 
             <button
               type="submit"
-              className="bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold
-              hover:bg-primary-blue transition-colors duration-300 "
+              className="bg-blue-500 text-white py-3 px-6 rounded-lg font-semibold
+              hover:bg-blue-900  hover:font-bold transition-colors duration-300 cursor-pointer"
             >
               Submit
             </button>
@@ -62,45 +63,68 @@ const ContactMe = () => {
         </div>
       </section>
 
-      <section id='social' className='flex flex-col items-start gap-5 px-5 sm:px-16 mt-8 sm:mt-24'>
-        <h2 className="text-2xl lg:text-[32px] font-semibold text-primary-blue">
+      <section id='social' className='flex flex-col items-start gap-5 px-5 sm:px-16 mt-8 sm:mt-24 lg:mt-0'>
+        <h2 data-aos="fade-right" className="text-2xl lg:text-[32px] font-semibold text-primary-blue">
             Connect With Me
         </h2>
-        <p>
+        <p data-aos="fade-right">
           Follow or message me on these platforms:
         </p>
         <div className='grid grid-cols-3 gap-10 sm:grid-cols-6 sm:gap-5 bigscreen:hidden'>
-         <LinkedIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
-         <InstagramIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
-         <GithubIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
-         <PhoneIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
-         <FrontEndMentorIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
-         <GmailIcon className="w-7 h-7 sm:w-12 sm:h-12 text-button-blue"/>
+          <div data-aos="zoom-in" data-aos-duration="500" >
+            <LinkedIcon className=" cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-blue-700 transition-colors duration-300"/>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="600" >
+            <InstagramIcon  className=" cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-pink-600 transition-colors duration-300"/>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="700" >
+            <GithubIcon  className=" cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-gray-800 transition-colors duration-300"/>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="800" > 
+            <PhoneIcon  className=" cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-green-600 transition-colors duration-300"/>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="900" >
+            <FrontEndMentorIcon  className="cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-cyan-500 transition-colors duration-300"/>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000" >
+            <GmailIcon  className="cursor-pointer w-7 h-7 sm:w-12 sm:h-12 text-button-blue hover:text-red-600 transition-colors duration-300"/>
+          </div>
         </div>
 
         {/* for large screens */}
         <div className="hidden bigscreen:flex bigscreen:flex-col bigscreen:gap-6 bigscreen:items-center">
           {/* Row 1 - 3 icons */}
           <div className="flex justify-center gap-12">
-            <LinkedIcon className="w-12 h-12 text-button-blue" />
-            <InstagramIcon className="w-12 h-12 text-button-blue" />
-            <GithubIcon className="w-12 h-12 text-button-blue" />
+            <div data-aos="zoom-in" data-aos-duration="100" >
+              <LinkedIcon className=" cursor-pointer w-12 h-12 text-button-blue hover:text-blue-700 transition-colors duration-300" />
+            </div>
+             <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="200">
+              <InstagramIcon  className=" cursor-pointer w-12 h-12 text-button-blue hover:text-pink-600 transition-colors duration-300" />
+            </div>
+            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="200">
+              <GithubIcon  className=" cursor-pointer w-12 h-12 text-button-blue hover:text-gray-800 transition-colors duration-300" />
+            </div>
           </div>
           {/* Row 2 - 2 icons */}
           <div className="flex justify-center gap-12">
-            <PhoneIcon className="w-12 h-12 text-button-blue" />
-            <FrontEndMentorIcon className="w-12 h-12 text-button-blue" />
+            <div data-aos="fade-up-left" data-aos-delay="900" data-aos-duration="200" >
+              <PhoneIcon className=" cursor-pointer w-12 h-12 text-button-blue hover:text-green-600 transition-colors duration-300" />
+            </div>
+            <div data-aos="fade-down-left" data-aos-delay="500" data-aos-duration="200">
+              <FrontEndMentorIcon  className=" cursor-pointer w-12 h-12 text-button-blue hover:text-cyan-500 transition-colors duration-300" />
+            </div>
           </div>
           {/* Row 3 - 1 icon */}
-          <div className="flex justify-center gap-12">
-            <GmailIcon className="w-12 h-12 text-button-blue" />
+          <div data-aos="fade-down-left" data-aos-delay="700" data-aos-duration="200" className="flex justify-center gap-12">
+            <GmailIcon  className=" cursor-pointer w-12 h-12 text-button-blue hover:text-red-600 transition-colors duration-300" />
           </div>
 
-          <a 
+          <a data-aos="zoom-in-up" 
             href="#top"
-            className='text-blue-900 flex flex-col justify-center items-center mt-28'
+            className='group text-blue-900 flex flex-col justify-center items-center mt-28'
           >
-            <NavTopIcon className='w-12 h-12'/> Back to top     
+            <NavTopIcon className='w-12 h-12 transform transition-transform duration-300 group-hover:-translate-y-3 group-hover:text-gray-400'/> 
+            Back to top     
           </a>
         </div> 
 

@@ -10,13 +10,15 @@ const imageMap = import.meta.glob('../assets/apps/*.png', {
 const Projects = () => {
   return (
     <div className="px-5 mt-8 flex flex-col gap-5 sm:px-16 lg:px-32"> 
-      <h2 id="projects" className='font-semibold text-2xl lg:text-[32px] text-primary-blue'>
+      <h2 data-aos="fade-up"  
+        id="projects" className='font-semibold text-2xl lg:text-[32px] text-primary-blue'>
         Projects Highlights
       </h2>
       
-      <div className="flex flex-col gap-4.5 items-center sm:items-start lg:grid bigscreen:grid-cols-2 lg:gap-10">
+      <div 
+        className="flex flex-col gap-4.5 items-center sm:items-start lg:grid bigscreen:grid-cols-2 lg:gap-10">
         {projects.map(project => (
-          <div key={project.id} className="flex flex-col items-center sm:flex-row sm:gap-5 sm:border-2 sm:border-primary-blue sm:min-w-[542px] sm:max-w-[615px] sm:bg-white sm:rounded-3xl overflow-hidden sm:w-full">
+          <div data-aos="flip-down"  key={project.id} className="flex flex-col items-center sm:flex-row sm:gap-5 sm:border-2 sm:border-primary-blue sm:min-w-[542px] sm:max-w-[615px] sm:bg-white sm:rounded-3xl overflow-hidden sm:w-full">
             <div>
               <img
                 src={imageMap[`../assets/apps/${project.img}`]}
@@ -30,16 +32,24 @@ const Projects = () => {
               </h1>
               <div className="hidden sm:flex sm:gap-3">
                 {project.tools.map((tool, index) => (
-                  <p key={index} className="border border-bg-skills rounded-2xl px-3 sm:font-medium">
+                  <p key={index} 
+                    className=" cursor-pointer border border-bg-skills rounded-2xl px-3 sm:font-medium
+                                hover:-translate-y-1  hover:shadow-md transition duration-300"
+                  
+                  >
                     {tool}
                   </p>
                 ))}
               </div>
               <div className="flex gap-4 sm:text-[20px]">
-                <a href={project.site.liveSite} className="flex items-center gap-1">
+                <a href={project.site.liveSite} 
+                  className="flex items-center gap-1 hover:text-blue-600 hover:-translate-y-1  transition duration-300"
+                >
                   Live Site <LinkImg />
                 </a>
-                <a href={project.site.viewCode} className="flex items-center gap-1">
+                <a href={project.site.viewCode} 
+                  className="flex items-center gap-1 hover:text-blue-600  hover:-translate-y-1  transition duration-300"
+                >
                   View Code <LinkImg />
                 </a>
               </div>
@@ -47,10 +57,11 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-11">
+      <div data-aos="zoom-in-down" 
+        className="flex justify-center mt-11">
         <a 
           href="#contact"
-          className="hidden lg:flex items-center justify-center gap-2.5 text-white bg-black w-61 h-13 rounded-3xl"
+          className="hidden lg:flex items-center justify-center gap-2.5 text-white bg-black w-61 h-13 rounded-3xl  hover:bg-white hover:text-black"
         >
           Let's Connect 
           <ScrollImg /> 

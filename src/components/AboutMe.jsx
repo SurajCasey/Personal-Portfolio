@@ -3,10 +3,11 @@ import ScrollImg from '../assets/icons/arrow-down-square.svg?react'
 
 const AboutMe = () => {
   return (
-      <div className="px-5 mt-8 flex flex-col items-start gap-4 
+      <div 
+        className="px-5 mt-8 flex flex-col items-start gap-4 
                       sm:px-16 sm:gap-5 lg:items-center lg:gap-10 lg:mt-30"
       >
-        <h2
+        <h2 data-aos="fade-up" 
           id='aboutme' 
           className="font-semibold text-2xl lg:text-[32px] text-primary-blue">
           About Me
@@ -14,14 +15,14 @@ const AboutMe = () => {
 
         <div className='flex flex-col gap-6 lg:flex-row justify-between'>
           <div className="w-full flex justify-center lg:items-center">
-            <img 
+            <img data-aos="zoom-in-right"
               src={KidImg} alt="image of kid studying" 
               className="rounded-full w-38 h-auto sm:w-87 sm:h-87 lg:w-[578px] lg:h-[578px]" 
             />
           </div>
 
           <div className='lg:flex lg:flex-col lg:items-center lg:gap-20'>
-            <p 
+            <p data-aos="fade-left" 
               className="text-dark-blue font-medium text-sm leading-5 tracking-[0.02em] 
                           sm:text-[20px] sm:leading-8 sm:tracking-[0.8] lg:w-107"
             >
@@ -37,10 +38,10 @@ const AboutMe = () => {
               I can contribute to meaningful applications and continue learning.
             </p>
 
-            <a
+            <a data-aos="zoom-in-down" 
               href='#skills' 
               className="hidden lg:flex items-center justify-center gap-2.5 text-white
-                                bg-black w-61 h-13 rounded-3xl"
+                                bg-black w-61 h-13 rounded-3xl  hover:bg-white hover:text-black"
             >
             Tools and Tech I use 
             <ScrollImg /> 

@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <>
     
-        <div id="top"
+        <div id="top" data-aos="fade-down"
             className='max-sm:fixed max-sm:top-0 max-sm:w-full flex flex-row items-center justify-between 
-            sm:py-5.5 sm:pr-3 lg:h-[138px] lg:px-20 lg:py-5.5 bg-white shadow-shadow-grey shadow-lg'
+            sm:py-5.5 sm:pr-3 lg:h-[138px] lg:px-20 lg:py-5.5 bg-white shadow-shadow-grey shadow-lg z-30'
         >
             {/* logo and name */}
             <div className=' flex flex-row items-center cursor-pointer'>
@@ -84,12 +84,12 @@ const Navbar = () => {
 
         {/* Options menu */}
         {menuOpen && (
-            <div>
+            <div >
                 <div 
                     className="sm:hidden fixed top-10 right-0 bg-gray-300
                             w-1/2 h-full p-6 flex flex-col gap-4 text-primary-blue z-20"
                 >
-                <a href="#home" 
+                <a href="#top" 
                     className="flex items-center lg:gap-2 w-fit transition-transform
                    transform duration-200 hover:-translate-y-1
                    border-b-2 border-transparent hover:border-current

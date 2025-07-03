@@ -30,12 +30,23 @@ html{
 }
 
 .buttons{
-    @apply text-white bg-button-blue rounded-[20px] w-34 h-11 text-xs; 
+    @apply text-white cursor-pointer bg-button-blue 
+    hover:text-button-blue hover:bg-white hover:font-bold
+    transition-transform duration-400 
+    rounded-[20px] w-34 h-11 text-xs; 
     box-shadow: 5px 5px 5px rgba(107, 114,128, 0.50); 
 }
 
 .hirebutton{
-    @apply text-secondary-blue bg-button-yellow 
+    @apply text-secondary-blue bg-button-yellow cursor-pointer
+                hover:text-[#e1306c] hover:bg-white hover:font-bold
+        transition-transform duration-400 hover:-translate-y-3
                     rounded-[20px] w-34 h-11 text-[16px] font-semibold ; 
                     box-shadow: 5px 5px 5px rgba(107, 114,128, 0.50);
 }
+
+
+
+
+
+
