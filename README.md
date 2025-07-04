@@ -3,10 +3,8 @@
 This is my personal portfolio website built to showcase my skills, projects, and experience as a web developer. It is a fully responsive and animated site designed with modern front-end technologies and deployed on a custom domain via Hostinger.
 
 ## 🔗 Live Site
-[https://yourdomain.com](https://yourdomain.com) <!-- Replace with your actual domain -->
+[https://surajcasey.github.io/Personal-Portfolio/](https://surajcasey.github.io/Personal-Portfolio/) 
 
-## 📸 Preview
-![Portfolio Preview](./preview.png) <!-- Optional: Add a screenshot -->
 
 ## 🛠️ Features
 - 💻 Responsive design for desktop, tablet, and mobile
@@ -40,9 +38,6 @@ This is my personal portfolio website built to showcase my skills, projects, and
 ├── App.jsx
 └── main.jsx
 
-bash
-Copy
-Edit
 
 ## 🧩 Installation & Setup Instructions
 
@@ -50,36 +45,34 @@ Edit
    ```bash
    git clone https://github.com/surajcasey/Personal-Portfolio.git
    cd Personal-Portfolio
-Install dependencies
 
-bash
-Copy
-Edit
-npm install
-Start the development server
+2. **Install dependencies**
+    ```bash
+    Copy
+    Edit
+    npm install
 
-bash
-Copy
-Edit
-npm run dev
-Build for production
+3. **Start the development server**
+    ```bash
+    Copy
+    Edit
+    npm run dev
 
-bash
-Copy
-Edit
-npm run build
-🌍 Deployment
+
+1. **Build for production**
+    ```bash
+    Copy
+    Edit
+    npm run build
+
+## 🌍 Deployment
 The site is deployed using Hostinger on a custom domain. For static deployment:
 
 Build the app using npm run build
 
-Upload the contents of the build/ folder to the public_html directory via Hostinger File Manager
-
-Ensure a .htaccess file exists to support client-side routing (if using React Router)
-
-📄 License
+## 📄 License
 This project is open source and available under the MIT License.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Suraj Khatri
 
