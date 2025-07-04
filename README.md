@@ -1,12 +1,85 @@
-# React + Vite
+# 🌐 Suraj Khatri - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built to showcase my skills, projects, and experience as a web developer. It is a fully responsive and animated site designed with modern front-end technologies and deployed on a custom domain via Hostinger.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
+[https://yourdomain.com](https://yourdomain.com) <!-- Replace with your actual domain -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![Portfolio Preview](./preview.png) <!-- Optional: Add a screenshot -->
 
-## Expanding the ESLint configuration
+## 🛠️ Features
+- 💻 Responsive design for desktop, tablet, and mobile
+- 🎨 Clean and modern UI with a blue theme (`#157cfc`)
+- ✨ Smooth scroll animations using AOS (Animate on Scroll)
+- 🔗 Social media icons with hover effects
+- 📂 Project showcase with interactive cards
+- 📧 Contact form section
+- 📜 Resume download button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+- HTML5
+- CSS3 / SCSS
+- JavaScript
+- React.js
+- AOS (Animate On Scroll)
+- Git & GitHub
+
+## 📁 Folder Structure
+/public
+/src
+├── components
+│ ├── Navbar.jsx
+│ ├── Hero.jsx
+│ ├── AboutMe.jsx
+│ ├── Skills.jsx
+│ ├── Projects.jsx
+│ ├── ContactMe.jsx
+│ └── Footer.jsx
+├── assets
+├── App.jsx
+└── main.jsx
+
+bash
+Copy
+Edit
+
+## 🧩 Installation & Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/surajcasey/Personal-Portfolio.git
+   cd Personal-Portfolio
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Build for production
+
+bash
+Copy
+Edit
+npm run build
+🌍 Deployment
+The site is deployed using Hostinger on a custom domain. For static deployment:
+
+Build the app using npm run build
+
+Upload the contents of the build/ folder to the public_html directory via Hostinger File Manager
+
+Ensure a .htaccess file exists to support client-side routing (if using React Router)
+
+📄 License
+This project is open source and available under the MIT License.
+
+🙋‍♂️ Author
+Suraj Khatri
+
