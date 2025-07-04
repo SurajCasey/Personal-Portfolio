@@ -44,7 +44,7 @@ const Hero = () => {
                 
                 >
                     <a
-                        href="/Personal-Portfolio/SurajKhatriCV.docx" 
+                        href="/SurajKhatriCV.docx" 
                         download
                         className='buttons lg:absolute lg:top-0 lg:left-0 hover:-translate-y-3 
                             flex justify-center items-center'
