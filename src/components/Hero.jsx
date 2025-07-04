@@ -3,18 +3,6 @@ import ProfileImg from '../assets/photos/profile.jpg';
 import ScrollImg from '../assets/icons/arrow-down-square.svg?react';
 
 const Hero = () => {
-    //handling download resume
-   const handleDownload = () => {
-  const link = document.createElement('a');
-  link.href = `${process.env.PUBLIC_URL}/Suraj-Khatri-CV.docx`; // use public path
-  link.download = 'Suraj-Khatri-CV.docx';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
-
-
-
   return (
     <div id='home' className='flex flex-col items-center max-sm:mt-10'>
         <div className='flex flex-col items-center mt-3.5 mx-5 px-2 sm:px-16 sm:pt-6.5 
